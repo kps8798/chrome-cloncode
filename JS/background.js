@@ -8,7 +8,7 @@ const randomImage = images[Math.floor(Math.random() * images.length)];
 
 const bg = document.createElement("img");
 
-bg.src = `images/${randomImage}`;
+bg.src = `./images/${randomImage}`;
 
 document.body.appendChild(bg);
 
